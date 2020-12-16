@@ -1,0 +1,106 @@
+.split-pane {
+    -fx-background-color: #dfe0e5;
+}
+
+#toolsPane {
+    -fx-background-color: #bbbfca;
+}
+
+#menuBar {
+    -fx-background-color: whitesmoke;
+}
+
+.text-field:readonly {
+    -fx-background-color: whitesmoke;
+}
+
+.text-area:readonly {
+    -fx-background-color: whitesmoke;
+}
+
+#settingsButton{
+    -fx-text-fill: black;
+}
+
+.button {
+    -fx-background-color:
+            #c3c4c4,
+            linear-gradient(#d6d6d6 50%, white 100%),
+            radial-gradient(center 50% -40%, radius 200%, #e6e6e6 45%, rgba(230,230,230,0) 50%);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,1;
+    -fx-text-fill: black;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 3, 0.0 , 0 , 1 );
+}
+
+.menu-button{
+    -fx-background-color:
+            #c3c4c4,
+            linear-gradient(#d6d6d6 50%, white 100%),
+            radial-gradient(center 50% -40%, radius 200%, #e6e6e6 45%, rgba(230,230,230,0) 50%);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,1;
+    -fx-text-fill: blue;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 3, 0.0 , 0 , 1 );
+}
+.menu-button:hover {
+    -fx-background-color: linear-gradient(#207BCF, #1973c9);
+}
+
+.list-cell:filled:selected:focused, .list-cell:filled:selected {
+    -fx-background-color: linear-gradient(#328BDB 0.0%, #207BCF 25.0%, #1973c9 75.0%, #0A65BF 100.0%);
+    -fx-text-fill: white;
+}
+
+.menu-item:focused .label {
+    -fx-text-fill: blue;
+}
+.menu-item .label {
+    -fx-text-fill: black;
+}
+
+.menu-button .label{
+    -fx-text-fill: black;
+}
+
+.list-cell{
+    -fx-text-fill: white;
+    -fx-font-size:13.0;
+}
+
+.list-cell:even { /* <=== changed to even */
+    -fx-background-color: #777373;
+}
+
+.list-cell:odd { /* <=== changed to even */
+    -fx-background-color: #585656;
+}
+
+.list-cell:filled:hover {
+    -fx-background-color: #0093ff;
+    -fx-text-fill: white;
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(#207BCF, #1973c9);
+}
+
+#toolsPane{
+    -fx-background-image: url("Images/background3.jpg");
+}
+
+.split-pane{
+    -fx-background-color: #313134;
+}
+
+.label{
+    -fx-text-fill: white;
+}
+
+.check-box{
+    -fx-text-fill: white;
+}
+
+.list-view:even{
+    -fx-background-color: black;
+}
